@@ -1,0 +1,89 @@
+/* normalizar los estilos; es eliminar los estilos que el navegador aplica */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(254, 230, 238);
+}
+.contenedor{
+    background-color: rgb(255, 152, 186);
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table, th, td{
+    border: 2px solid rgb(135, 35, 68);
+    border-collapse: collapse;
+    background-color: rgb(246, 90, 142);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+table,th{
+    border:5px solid rgb(87, 18, 41)
+}
+th{
+background-color: rgb(130, 21, 65);
+color: beige;
+}
+
+header{
+    background-color: rgb(226, 43, 116);
+    padding: 15px;
+}
+h1{
+    color: beige;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 35px;
+}
+h2{
+    color: rgb(255, 171, 199);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    margin-top: 15px;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 40px;
+    margin-bottom: 35px;
+    color: rgb(135, 35, 68);
+}
+.data{
+    background-color: rgb(244, 187, 211);
+}
+.perrito{
+    border: 8px solid rgb(135, 35, 68)
+}
+p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 30px;
+    color: beige;
+}
+iframe{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 800px;
+    height: 300px;
+}
+.texto{color: rgb(255, 0, 106);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    text-align: center;
+}
+.derechos{
+    text-align: center;
+    padding: 25px;
+}
+footer{ 
+    background-color: rgb(226, 43, 116);
+
+}
